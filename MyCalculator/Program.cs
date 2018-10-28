@@ -79,29 +79,6 @@ namespace MyCalculator
             //Wait for the user to respond before closing
             Console.Write("Press any key to close the Calculator console app...\r\n");
             Console.ReadKey();
-
-            //The rest of the program consists of the BONUS part and calls the classes Bonus1-4 to operate. 
-            Console.WriteLine("\r\nDo you want to continue to the BONUS part of MyCalculator? Press Enter! \r\nIf you are satisfied with the basic version press Escape to end the program...");
-
-            if (Console.ReadKey().Key == ConsoleKey.Enter)
-            {
-                Bonus2 myBonus2 = new Bonus2();
-                myBonus2.Calculator();
-
-                Bonus3 myBonus3 = new Bonus3();
-                myBonus3.Calculator();
-
-                Bonus4 myBonus4 = new Bonus4();
-                myBonus4.Calculator();
-
-                Bonus1 myBonus1 = new Bonus1();
-                myBonus1.Calculator();
-            }
-            else
-            {
-                Console.WriteLine("Thanks for using MyCalculator!");
-                Console.ReadKey();
-            }
         }
     }
 }
