@@ -21,6 +21,23 @@ namespace MyCalculator
             Console.WriteLine("Type another number, and then press Enter");
             num2 = Convert.ToInt32(Console.ReadLine());   //used Convert.ToInt32 to convert the string the user inputs to int
 
+            /*while (num1 < 0 | num2 < 0) //used the while loop to test if the number is negative and prompt a message to try again (step7)
+            {
+                Console.WriteLine("Both numbers need to be greater than zero. Type a number and then press Enter");
+                num1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Type another number, and then press Enter");
+                num2 = Convert.ToInt32(Console.ReadLine());
+            }
+            
+            while ((num1 < 0 | num1 > 100) | (num2 < 0 | num2 > 100))  //used the while loop to test if the number is negative or greater than 100 and prompt a message to try again (step8)
+            {
+                Console.WriteLine("Both numbers need to be greater than zero and less than 100. Type a number and then press Enter");
+                num1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Type another number, and then press Enter");
+                num2 = Convert.ToInt32(Console.ReadLine());
+            }
+            */
+
             // Ask the user to choose an option
             Console.WriteLine("Choose an option from the following list:");
             Console.WriteLine("\ta - Add");
@@ -33,7 +50,7 @@ namespace MyCalculator
             switch (Console.ReadLine())
             {
                 case "a":
-                    Console.WriteLine("Your result: {num1} + {num2} = " + (num1 + num2)); // Line 32
+                    Console.WriteLine($"Your result: {num1} + {num2} = " + (num1 + num2)); // Line 32
                     break;
                 case "s":
                     Console.WriteLine($"Your result: {num1} - {num2} = " + (num1 - num2));
