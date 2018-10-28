@@ -78,7 +78,7 @@ namespace MyCalculator
             }
             //Wait for the user to respond before closing
             Console.Write("Press any key to close the Calculator console app...\r\n");
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
     }
 }
