@@ -16,10 +16,10 @@ namespace MyCalculator
             Console.WriteLine("------------------------\n");
 
             Console.WriteLine("Type a number, and then press Enter");
-            num1 = Convert.ToInt32(Console.ReadLine());   //used Convert.ToInt32 to convert the string the user inputs to int
+            num1 = Convert.ToInt32(Console.ReadLine());  //used Convert.ToInt32 to convert the string the user inputs to int
 
             Console.WriteLine("Type another number, and then press Enter");
-            num2 = Convert.ToInt32(Console.ReadLine());   //used Convert.ToInt32 to convert the string the user inputs to int
+            num2 = Convert.ToInt32(Console.ReadLine());  //used Convert.ToInt32 to convert the string the user inputs to int
 
             /*while (num1 < 0 | num2 < 0) //used the while loop to test if the number is negative and prompt a message to try again (step7)
             {
