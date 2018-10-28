@@ -42,6 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bonus1.cs" />
+    <Compile Include="Bonus2.cs" />
+    <Compile Include="Bonus3.cs" />
+    <Compile Include="Bonus4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
